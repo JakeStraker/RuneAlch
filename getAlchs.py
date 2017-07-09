@@ -11,6 +11,6 @@ for item in data:
 	price = data[item]['sell_average']
 	profit = alchPrice-(price + nat)
 	#print ''.join(message)
-	if (profit > -15 and price > 0):
+	if (profit > -100 and price > 0):
 		message = (name, " buy for: ", str(price), " and Gain/Lose = ", str(profit)) #more efficient to have it here
 		print ''.join(message)
